@@ -329,7 +329,7 @@ section .footer{
   	font-family: "ff-tisa-web-pro";
   	font-size: 1.2em;
   position: absolute;
-  color: #b8b8b8;
+  color: #132B33;
   font-weight: 400;
   line-height: 26px;
 }
@@ -666,11 +666,14 @@ section .footer {
 }
 #content {
   float:left;
-  width:50%;
+  width:75%;
   background:#eee;
+}
+#content p {
+	text-align: left;
 }
 #sidebar {
   float:left;
-  width:50%;
+  width:25%;
   background:#eee;
 }
